@@ -234,6 +234,13 @@ body{
     background-color: rgb(29, 37, 0) !important;
     }
 
+/* ABOUT SECTION STYLE */
+.cert-img{
+    
+    width: 210px;
+    float: left;
+    }
+
 
 /* CONTACT SECTION STYLE */
 .contact{
