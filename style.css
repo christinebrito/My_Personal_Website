@@ -28,7 +28,7 @@ body{
 .userbox img{
     border-radius: 50%;
     width: 250px;
-    border: 4px solid #F8ECD1;
+    border: 4px double #FFECCE;
     }
 
 .userbox p{
@@ -43,8 +43,8 @@ body{
     } 
 
 .userbox h1{
-    background-color: #F8ECD1;
-    color: rgb(235, 0, 0);
+    background-color: #FFECCE;
+    color: #b31f27;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 30px;
@@ -57,7 +57,7 @@ body{
     }
 
 .userbox h1:hover{
-    color: #655D8A;
+    color: #b31f27;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-left-radius: 50px;
@@ -66,8 +66,8 @@ body{
     }
 
 .userbox p{
-    background-color: #F8ECD1;
-    color: rgb(235, 0, 0);
+    background-color: #FFECCE;
+    color: #b31f27;
     font-family: 'Baloo Bhaina 2', cursive;
     text-align: center;
     font-weight: bolder;
@@ -80,13 +80,13 @@ body{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border: 2px solid #F8ECD1;
+    border: 2px solid #dfa2ca;
     padding: 10px 10px 20px;
     border-radius: 30px;
     }
 
 .scroll-bar span{
-   border:2px solid #F8ECD1;
+   border:2px solid #FFECCE;
    font-size: 10px;
    border-radius: 30px;
     }
@@ -111,11 +111,11 @@ body{
     z-index: 2;}
 
 .navbar{
-    background-color: #FDCEB9;
+    background-color: #E7D9C1;
     }
 
 .navbar-brand img{
-    height: 50px;
+    height: 30px;
     }
 
 .nav-bar .bi bi-layout-sidebar-inset{
@@ -134,19 +134,19 @@ body{
     }
 
 .nav-link{
-   color: purple !important;
+   color: #B31F27 !important;
    font-weight: 600;
+   font-weight: bold;
     }
 
 /* ABOUT SECTION STYLE */
 
-.about{
-    padding-top: 100px;
-    margin-bottom: -130px
+.about {
+    background-color: #525564;
     }
 
 .profile-img{
-    height: 450px;
+    height: 500px;
     margin-left: 100px !important;
     }
 
@@ -154,89 +154,46 @@ body{
         font-family: Verdana;
         font-weight: bolder;
         font-size: 50px;
+        color: #FFECCE;
         }
 
 .about h3{
         font-family: Verdana;
         font-size: 30px;
-        padding-top: -50px;
+        color: #FFECCE;
         } 
 
 .about h4{
         font-family: Verdana;
         font-size: 20px;
+        padding-top: 120px;
+        color: #FFECCE;
         }
 
 .about h5{
         font-family: Verdana;
         font-size: 20px;
+        color: #FFECCE;
         }
 
-.about h6{
-        font-family: Verdana;
+.about pre{
         font-size: 15px;
+        padding-top: 20px;
+        color: #FFECCE;
         }
 
 
 /* EDUCATION & EXPERIENCE SECTION SKILLS & LANGUAGES SECTIONSTYLE */
 .education{
-    margin-top: -350px;
+    background-color: #E7D9C1;
+    margin-top: -341px;
     padding-top: 50px;
     padding-bottom: 30px;
-    background-color: #F8ECD1;
     }
 
 .education h3{
     font-family: Verdana;
     font-weight: bolder;
-    }
-
-.timeline{
-    list-style-type: none;
-    position: relative;
-    }
-
-.timeline:before{
-    content: '';
-    background-color: #D885A3;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 1;
-    }
-
-.timeline li{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    background-color: white;
-    }
-
-.timeline li h4{
-    background-color: #FDCEB9;
-    padding: 5px 0px 5 px 20px;
-    column-rule-color: rgb(0, 73, 10);
-    font-size: 20px;
-    }
-
-.timeline li h4 span{
-    font-weight: bold;
-    color: rgb(235, 0, 0);
-    }
-
-.timeline li:before{
-    content: '';
-    background-color: #655D8A;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    border: 3px saddlebrown;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 1;
     }
 
 
@@ -245,6 +202,11 @@ body{
     width: 210px;
     float: left;
     }
+
+.certificate{
+    background-color: #E7D9C1;
+    
+}
 
 .certificate h3{
     font-family: Verdana;
@@ -257,10 +219,58 @@ body{
     font-weight: bolder;
     }
 
+.timeline{
+    list-style-type: none;
+    position: relative;
+    }
+
+.timeline:before{
+    content: '';
+    background-color: #B31F27;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+    }
+
+.timeline li{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #E7D9C1;
+    }
+
+.timeline li h4{
+    background-color: #E7D9C1;
+    padding: 5px 0px 5 px 20px;
+    /* column-rule-color: rgb(0, 73, 10); */
+    font-size: 15px;
+    }
+
+.timeline li h4 span{
+    font-weight: bold;
+    color: #3D292A;
+    }
+
+.timeline li:before{
+    content: '';
+    background-color: #525564;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    /* border: 3px rgb(139, 131, 19); */
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    }
+    
 
 /* SKILLS & LANGUAGES SECTION STYLE */
 .skills{
-    background-color: #F8ECD1;
+    background-color: #525564;
     } 
 
 .skills h3{
@@ -268,24 +278,26 @@ body{
     padding-bottom: 20px;
     font-family: Verdana;
     font-weight: bolder;
+    color: #FFECCE;
     }
     
 .skills-bar p{
     margin-bottom: 6px;
     font-weight: 500;
+    color: #FFECCE;
     }
      
 .progress{
     border-radius: 16px !important;
     margin-bottom: 10px;
-    background-color: rgb(255, 255, 255) !important;
+    background-color: #E7D9C1 !important;
     border-style: double;
-    border-color: black;
+    border-color: #3D292A;
     }
      
 .progress-bar{
     border-radius: 16px;
-    background-color: #3b325b !important;
+    background-color: #3D292A !important;
     }
 
 
@@ -297,7 +309,7 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(235, 0, 0);
+    color: #B31F27;
     font-weight: 700;
     font-family: 'Ubuntu', sans-serif;
     }
@@ -306,7 +318,7 @@ body{
     padding: 30x 0;
     font-size: 15px;
     color: rgb(31, 22, 0);
-    background-color: #F8ECD1;
+    background-color: #E7D9C1;
     border-radius: 50%;    
     font-family: 'Ubuntu', sans-serif !important;
     }
@@ -324,9 +336,9 @@ body{
     padding: 10px 25px 10px 25px;
     margin: 5px;
     border-radius: 30px;
-    border: 2px solid saddlebrown;
+    border: 2px solid #B31F27;
     background: transparent;
-    color: rgb(235, 0, 0);
+    color: #B31F27;
     font-weight: 700;
     font-family: 'Ubuntu', sans-serif;
     }
@@ -348,8 +360,8 @@ body{
 
 /* FOOTER SECTION STYLE */
 .footer{
-    background-color: #655D8A;
-    color: rgb(255, 255, 255);
+    background-color: #525564;
+    color: #FFECCE;
     height: 80px;
     padding-top: 10px;
     font-weight: bold;
@@ -377,8 +389,8 @@ body{
     padding-left: 12px;
     padding-top: 6px;
     margin-top: 5px;
-    background-color: #655D8A;
-    color: white;
+    background-color: #8F9EA2;
+    color: #FFFF;
     }
 
 .social-icons ul li:hover{
