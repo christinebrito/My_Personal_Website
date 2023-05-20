@@ -80,7 +80,7 @@ body{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border: 2px solid #dfa2ca;
+    border: 2px solid #FFECCE;
     padding: 10px 10px 20px;
     border-radius: 30px;
     }
@@ -116,6 +116,7 @@ body{
 
 .navbar-brand img{
     height: 30px;
+    padding-left: 10px;
     }
 
 .nav-bar .bi bi-layout-sidebar-inset{
@@ -183,17 +184,110 @@ body{
         }
 
 
-/* EDUCATION & EXPERIENCE SECTION SKILLS & LANGUAGES SECTIONSTYLE */
+/* EDUCATION SECTION SKILLS & LANGUAGES SECTIONSTYLE */
 .education{
     background-color: #E7D9C1;
     margin-top: -341px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     }
 
 .education h3{
     font-family: Verdana;
     font-weight: bolder;
+    padding-bottom: 30px;
+    color: #3D292A;
+    }
+
+.education h4{
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    }
+
+.education h5{
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    }
+
+.education p{
+    font-family: Verdana;
+    font-size: 13px;
+    padding-right: 5px;
+    padding-left: 5px;
+    }
+
+.educ{
+    background-color: #525564;
+    color: #FFECCE;
+    padding-top: 25px;
+    margin-left: 20px;
+    width: 90%;
+}
+
+
+/* EXPERIENCE SECTION SKILLS & LANGUAGES SECTIONSTYLE */
+.experience{
+    background-color: #525564;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+
+.experience h3{
+    color: #FFECCE;
+    font-family: Verdana;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.expi{
+    background-color: #E7D9C1;
+    color: #3D292A;
+    padding-top: 25px;
+    margin-left: 20px;
+    width: 90%;
+}
+
+.expi p{
+    font-family: Verdana;
+    font-size: 13px;
+    padding-right: 40px;
+    }
+
+.expi .p ul{
+    padding-left: -50px;
+    }
+
+.expi h4{
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    }
+
+.expi h5{
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    }
+
+.expi h6{
+    font-family: Verdana;
+    font-size: 13px;
+    padding-right: 5px;
+    padding-left: 5px;
     }
 
 
@@ -205,13 +299,14 @@ body{
 
 .certificate{
     background-color: #E7D9C1;
-    
+    color: #3D292A;
 }
 
 .certificate h3{
     font-family: Verdana;
     font-weight: bolder;
-    padding-top: 40px;
+    padding-top: 80px;
+    padding-bottom: 30px;
     }
 
 .certificate h4{
@@ -274,8 +369,8 @@ body{
     } 
 
 .skills h3{
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 30px;
     font-family: Verdana;
     font-weight: bolder;
     color: #FFECCE;
@@ -318,7 +413,7 @@ body{
 .contact .row{
     padding: 30x 0;
     font-size: 15px;
-    color: rgb(31, 22, 0);
+    color: #3D292A;;
     background-color: #E7D9C1;
     border-radius: 50%;    
     font-family: 'Ubuntu', sans-serif !important;
@@ -390,7 +485,7 @@ body{
     padding-left: 12px;
     padding-top: 6px;
     margin-top: 5px;
-    background-color: #8F9EA2;
+    background-color: #3D292A;
     color: #FFFF;
     }
 
