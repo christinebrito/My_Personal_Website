@@ -457,12 +457,28 @@ body{
 /* FOOTER SECTION STYLE */
 .footer{
     background-color: #525564;
-    color: #FFECCE;
-    height: 80px;
+    height: 150px;
     padding-top: 10px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     }
+
+.footer p{
+    color: #FFECCE;
+    font-size: 13px;
+}
+
+.footer i{
+    color: #FFECCE;
+}
+
+.footer h6{
+    color: #FFECCE;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
 
 
 /* SOCIAL ICONS SECTION STYLE */ 
