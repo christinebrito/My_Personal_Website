@@ -112,6 +112,8 @@ body{
 
 .navbar{
     background-color: #E7D9C1;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
+    opacity: 80%;
     }
 
 .navbar-brand img{
@@ -135,10 +137,15 @@ body{
     }
 
 .nav-link{
-   color: #B31F27 !important;
+   color: #000000 !important;
    font-weight: 600;
    font-weight: bold;
     }
+
+.nav-link:hover{
+   color: #ed0d18 !important;
+    }
+
 
 /* ABOUT SECTION STYLE */
 
@@ -186,7 +193,7 @@ body{
 
 /* EDUCATION SECTION SKILLS & LANGUAGES SECTIONSTYLE */
 .education{
-    background-color: #E7D9C1;
+    background-color: #e3dcd0;
     margin-top: -341px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -225,7 +232,6 @@ body{
     }
 
 .educ{
-    background-color: ;
     color: #FFECCE;
     padding-top: 25px;
     margin-left: 20px;
@@ -237,7 +243,9 @@ body{
     padding: 10px;
     margin-top: 20px;
     border-top-right-radius: 50px;
-    padding-bottom: 20px;}
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
+}
 
 .effect:hover{
     background-color: #3D292A;     
@@ -270,6 +278,7 @@ body{
     padding-top: 25px;
     margin-left: 20px;
     width: 90%;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
 }
 
 .expi:hover{   
@@ -277,7 +286,8 @@ body{
     border-bottom-left-radius: 0;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    transition: 1s;}
+    transition: 1s;
+}
 
 .expi p{
     font-family: Verdana;
