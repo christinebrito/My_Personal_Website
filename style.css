@@ -202,35 +202,50 @@ body{
 .education h4{
     font-family: Verdana;
     font-weight: bolder;
-    font-size: 18px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 5px;
+    font-size: 20px;
+    /* padding-right: 5px;
+    padding-left: 5px; */
+    padding-top: 50px;
     }
 
 .education h5{
     font-family: Verdana;
     font-weight: bolder;
     font-size: 15px;
-    padding-right: 5px;
-    padding-left: 5px;
+    /* padding-right: 5px;
+    padding-left: 5px; */
     padding-top: 5px;
     }
 
 .education p{
     font-family: Verdana;
     font-size: 13px;
-    padding-right: 5px;
-    padding-left: 5px;
+    /* padding-right: 5px;
+    padding-left: 5px; */
     }
 
 .educ{
-    background-color: #525564;
+    background-color: ;
     color: #FFECCE;
     padding-top: 25px;
     margin-left: 20px;
     width: 90%;
 }
+
+.effect{
+    background-color: #525564;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    padding-bottom: 20px;}
+
+.effect:hover{
+    background-color: #3D292A;     
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 1s;}
 
 
 /* EXPERIENCE SECTION SKILLS & LANGUAGES SECTIONSTYLE */
@@ -249,11 +264,20 @@ body{
 
 .expi{
     background-color: #E7D9C1;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     color: #3D292A;
     padding-top: 25px;
     margin-left: 20px;
     width: 90%;
 }
+
+.expi:hover{   
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 1s;}
 
 .expi p{
     font-family: Verdana;
